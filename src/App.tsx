@@ -35,8 +35,8 @@ function App() {
   const [openItem, setOpenItem] = useState(0);
   return (
     <main className='flex flex-col w-[23em] md:w-[36em] bg-white rounded-lg p-7 mt-[15em] md:mt-[10em]  h-fit'>
-      <div className="flex h-50 w-50 text-3xl font-bold md:text-4xl items-center mb-3">
-        <img src="/images/icon-star.svg" className='w-6 h-6 mr-3' alt="star icon"/>
+      <div className="flex h-50 w-50 text-3xl md:text-5xl font-bold items-center mb-3">
+        <img src="/images/icon-star.svg" className='w-6 md:w-10 h-6 md:h-10 mr-3' alt="star icon"/>
         <div>FAQs</div>
       </div>
       {prop.map((e)=>{        
