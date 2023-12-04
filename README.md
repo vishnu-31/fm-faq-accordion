@@ -7,4 +7,4 @@
  - tailwind CSS
 
 
-Live Link ()
+Live Link (https://faq-accordion-fm-31.netlify.app/)
